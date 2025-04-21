@@ -37,4 +37,5 @@ struct Wrapper<T> {
 
 ## 🔗 Additional Resources
 . https://docs.swift.org/swift-book/documentation/the-swift-programming-language/properties/#Property-Wrappers
+
 . https://github.com/swiftlang/swift-evolution/blob/main/proposals/0258-property-wrappers.md
