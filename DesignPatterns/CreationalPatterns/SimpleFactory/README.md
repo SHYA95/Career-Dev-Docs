@@ -9,24 +9,6 @@ The Simple Factory pattern provides an interface for creating objects without sp
 - Reduces duplication of creation code
 - Not technically a design pattern, but a programming idiom
 
-## 📊 Structure Diagram
-┌───────────────┐ creates ┌───────────────┐
-│ │------------------------>│ │
-│ Client │ │ Product │
-│ │ │ (Protocol) │
-└───────┬───────┘ └───────┬───────┘
-│ │
-│ │
-│ uses │ implemented by
-│ │
-▼ ▼
-┌───────────────┐ ┌───────────────┐
-│ │ creates │ │
-│ SimpleFactory │------------------------>│ ConcreteProduct│
-│ │ │ │
-└───────────────┘ └───────────────┘
-
-
 ## 💡 Implementation in Swift
 
 ```swift
