@@ -259,6 +259,28 @@ struct WorkoutAttributes: ActivityAttributes {
     var startTime: Date
 }
 ```
+<img width="771" alt="Screenshot 2025-04-22 at 1 41 03 PM" src="https://github.com/user-attachments/assets/9ab18e33-77ba-4b9d-aae2-1760a1641832" />{height=300}
+- Cannot create a provisioning profile for "com.Live.Activity.Live-Activity"
+- Personal development teams do not support Push Notifications and iCloud capabilities:
+
+## How to Fix It
+#### Change the bundle identifier:
+
+- Use a simpler format (e.g., "com.yourname.LiveActivityDemo")
+- Avoid periods within components
+  
+#### Remove Push Notifications capability:
+- Go to "Signing & Capabilities" tab
+- Remove "Push Notifications" if present
+* Note: Remote updates won't work
+  
+### Simplify the project:
+
+- Remove widget extension if just testing UI
+- Create a basic demo without actual Live Activity integration
+* Bypasses signing requirements
+Easiest way to test without a paid account
+
 ## 📚 Resources
 Apple Documentation: Live Activities
 WWDC22: Meet ActivityKit
