@@ -259,7 +259,7 @@ struct WorkoutAttributes: ActivityAttributes {
     var startTime: Date
 }
 ```
-<img width="771" alt="Screenshot 2025-04-22 at 1 41 03 PM" src="https://github.com/user-attachments/assets/9ab18e33-77ba-4b9d-aae2-1760a1641832" />{height=300}
+<img width="771" alt="Screenshot 2025-04-22 at 1 41 03 PM" src="https://github.com/user-attachments/assets/9ab18e33-77ba-4b9d-aae2-1760a1641832" />
 - Cannot create a provisioning profile for "com.Live.Activity.Live-Activity"
 - Personal development teams do not support Push Notifications and iCloud capabilities:
 
