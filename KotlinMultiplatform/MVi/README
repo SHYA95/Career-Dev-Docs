@@ -1,6 +1,6 @@
 # Kotlin Multiplatform (KMP) with MVI Architecture and Repository Pattern
 
-## 🚀 Overview
+##  🚀 Overview
 This document outlines the implementation of Model-View-Intent (MVI) architecture in a Kotlin Multiplatform (KMP) project, along with the Repository pattern and Revision use cases. This architecture enables sharing business logic across platforms while maintaining platform-specific UI implementations.
 
 ## 🔑 Key Concepts
