@@ -120,10 +120,6 @@ let iOSApp = Application(factory: iOSUIFactory())
 iOSApp.createUI()
 iOSApp.simulateUserInteraction()
 
-// For Android
-let androidApp = Application(factory: AndroidUIFactory())
-androidApp.createUI()
-androidApp.simulateUserInteraction()
 ```
 ## ⚠️ Considerations
 #### Pros
