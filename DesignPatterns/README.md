@@ -23,3 +23,4 @@ Structural patterns deal with object composition, creating relationships between
 Behavioral patterns focus on communication between objects, how objects interact and distribute responsibility.
 
 ## 🔗 Additional Resources
+https://www.youtube.com/watch?v=aSDdHSW6_bU&list=PLsV97AQt78NTrqUAZM562JbR3ljX19JFR
